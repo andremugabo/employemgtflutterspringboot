@@ -1,4 +1,4 @@
-import 'package:employeeflutterspring/screen/registerEmployee.dart';
+import 'package:employeeflutterspring/screen/register_employee.dart';
 import 'package:flutter/material.dart';
 
 class Employeedrawer extends StatefulWidget {
@@ -21,8 +21,8 @@ class _EmployeedrawerState extends State<Employeedrawer> {
           padding: EdgeInsets.only(top: minimumPadding, bottom: minimumPadding),
           children: <Widget>[
             DrawerHeader(
-              child: Text('Employee Management'),
               decoration: BoxDecoration(color: Colors.blue),
+              child: Text('Employee Management'),
             ),
             ListTile(
               title: Text('Register Employee'),
